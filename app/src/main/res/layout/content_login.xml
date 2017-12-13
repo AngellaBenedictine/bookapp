@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="65dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:background="@drawable/old"
+    >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dont have an account? Signup"
+        android:onClick="signup"
+        android:textColor="#212121"
+        android:id="@+id/btnCreateAccount"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login"
+        android:text="Login"
+        android:background="#8D6E63"
+        android:onClick="Login" />
+
+</LinearLayout>

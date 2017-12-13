@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BookApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_signup">signup</string>
+    <string name="fname">Firstname</string>
+    <string name="textpassword">password</string>
+    <string name="lname">Lastname</string>
+    <string name="phone">phone</string>
+    <string name="email">email</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_web">web</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
